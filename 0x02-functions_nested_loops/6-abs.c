@@ -4,7 +4,7 @@
  * @j: integer input
  * Return: absolute value of j
  */
-int _abs(int j);
+int _abs(int j)
 {
 	return (j * ((j > 0) - (j < 0)));
 }
